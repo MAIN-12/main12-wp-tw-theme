@@ -43,7 +43,7 @@
 		/* translators: 1: WordPress link, 2: WordPress. */
 		printf(
 			'<a href="%1$s">proudly powered by %2$s</a>.',
-			esc_url( __( 'https://wordpress.org/', 'main12' ) ),
+			esc_url( __( 'https://main12.com/', 'main12' ) ),
 			'Main 12'
 		);
 		?>
