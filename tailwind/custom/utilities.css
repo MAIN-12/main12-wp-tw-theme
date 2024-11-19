@@ -1,0 +1,60 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `utilities` layer
+ *
+ * Add your own utility classes to this theme. Complex utility classes should
+ * be added using Tailwind’s plugin system:
+ *
+ * https://tailwindcss.com/docs/plugins#adding-utilities
+ */
+
+
+.entry-content {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50rem !important;
+}
+
+
+figure {
+	border-radius: 12px !important;
+}
+
+/* form */
+
+label {
+	width: 100%;
+	color: var(--color-primary) !important;
+}
+
+.form-control {
+	width: 100% !important;
+	border: 1px rgba(0, 0, 0, 0.175) solid !important;
+	border-radius: 12px !important;
+	min-height: 40px;
+	margin-bottom: 10px;
+}
+
+[type='submit']:not(:disabled) {
+	/* width: 100% !important; */
+	padding: 3px 20px;
+	border-radius: 12px !important;
+	min-height: 40px;
+	background-color: var(--color-primary);
+	color: white;
+}
+
+textarea {
+	text-align: left;
+	padding: 12px;
+	min-height: 150px;
+}
+
+.children {
+	margin-left: 2rem;
+	padding-left: 12px;
+	border-left: 1px solid lightgray;
+}
+
+article img {
+	border-radius: 1rem;
+}
